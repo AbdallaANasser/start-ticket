@@ -1,0 +1,10 @@
+{
+  "name": "start-ticket",
+  "description": "Fetch a ticket from any ticketing system, create an isolated git worktree, and configure the dev environment — all in one command",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abdalla Abdelnasser",
+    "url": "https://github.com/AbdallaANasser"
+  },
+  "license": "MIT"
+}
