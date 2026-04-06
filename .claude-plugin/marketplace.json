@@ -1,18 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "agentic-dev-tools",
   "description": "Agentic developer tools for Claude Code",
   "owner": {
     "name": "Abdalla Abdelnasser",
-    "url": "https://github.com/AbdallaANasser"
+    "email": "abdalla@abdalla.dev"
   },
   "plugins": [
     {
       "name": "start-ticket",
-      "versions": {
-        "1.0.0": {
-          "path": "."
-        }
-      }
+      "description": "Fetch a ticket, create an isolated git worktree, and configure your dev environment",
+      "version": "1.0.0",
+      "source": "."
     }
   ]
 }
