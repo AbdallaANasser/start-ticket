@@ -11,7 +11,7 @@
       "name": "start-ticket",
       "description": "Fetch a ticket, create an isolated git worktree, and configure your dev environment",
       "version": "1.0.0",
-      "source": "."
+      "source": "./"
     }
   ]
 }
