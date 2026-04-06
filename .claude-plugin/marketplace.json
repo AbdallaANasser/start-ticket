@@ -1,13 +1,18 @@
 {
   "name": "agentic-dev-tools",
   "description": "Agentic developer tools for Claude Code",
-  "plugins": {
-    "start-ticket": {
+  "owner": {
+    "name": "Abdalla Abdelnasser",
+    "url": "https://github.com/AbdallaANasser"
+  },
+  "plugins": [
+    {
+      "name": "start-ticket",
       "versions": {
         "1.0.0": {
           "path": "."
         }
       }
     }
-  }
+  ]
 }
