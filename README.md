@@ -31,22 +31,31 @@ Worktrees let you work on multiple tickets simultaneously without stashing, swit
 ### Option 1: Add as a plugin marketplace (recommended)
 
 ```bash
-# Clone to your Claude Code plugins directory
-git clone https://github.com/AbdallaANasser/start-ticket.git \
-  ~/.claude/plugins/marketplaces/start-ticket/plugins/start-ticket
+/plugin marketplace add https://github.com/AbdallaANasser/start-ticket
+/plugin install start-ticket@agentic-dev-tools
 ```
 
-Then enable it in `~/.claude/settings.json`:
+### Option 2: Via `settings.json`
+
+Add to your `~/.claude/settings.json`:
 
 ```json
 {
+  "extraKnownMarketplaces": {
+    "agentic-dev-tools": {
+      "source": {
+        "source": "github",
+        "repo": "AbdallaANasser/start-ticket"
+      }
+    }
+  },
   "enabledPlugins": {
-    "start-ticket@start-ticket": true
+    "start-ticket@agentic-dev-tools": true
   }
 }
 ```
 
-### Option 2: Copy into your project
+### Option 3: Copy into your project
 
 Copy the `skills/start-ticket/` directory into your project's `.claude/skills/`:
 
