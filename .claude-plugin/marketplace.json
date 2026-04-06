@@ -1,0 +1,13 @@
+{
+  "name": "agentic-dev-tools",
+  "description": "Agentic developer tools for Claude Code",
+  "plugins": {
+    "start-ticket": {
+      "versions": {
+        "1.0.0": {
+          "path": "."
+        }
+      }
+    }
+  }
+}
